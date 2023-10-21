@@ -9,6 +9,7 @@ import pwa from "next-pwa";
 const config = {
     images: {
         domains: ["tailwindui.com"],
+        dangerouslyAllowSVG: true,
     }
 };
 
