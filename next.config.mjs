@@ -6,7 +6,11 @@ await import("./src/env.mjs");
 import pwa from "next-pwa";
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+    images: {
+        domains: ["tailwindui.com"],
+    }
+};
 
 const withPWA = pwa({
     dest: 'public',
