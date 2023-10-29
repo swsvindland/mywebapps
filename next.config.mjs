@@ -5,7 +5,6 @@
 await import("./src/env.mjs");
 import pwa from "next-pwa";
 
-/** @type {import("next").NextConfig} */
 const config = {
     images: {
         domains: ["tailwindui.com"],
